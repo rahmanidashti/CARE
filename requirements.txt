@@ -1,0 +1,9 @@
+# The pipeline's own dependencies. verl and its stack (torch, vllm, ray, flash-attn)
+# are installed separately -- see the README.
+aiohttp>=3.9
+python-dotenv>=1.0
+
+# Only for data/prepare_*.py
+datasets>=2.18
+pandas>=2.0
+pyarrow>=14.0

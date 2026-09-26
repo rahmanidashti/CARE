@@ -1,0 +1,19 @@
+This project builds on verl (https://github.com/volcengine/verl),
+Copyright the verl authors, licensed under the Apache License, Version 2.0.
+
+The following file is verl's, carrying our modifications (see docs/integration.md):
+
+    verl_overlay/verl/experimental/reward_loop/reward_loop.py
+
+The following files are ours, released under the same licence:
+
+    verl_overlay/verl/utils/reward_score/rubric_reward/rubric_generator.py
+    verl_overlay/verl/utils/reward_score/rubric_reward/rurbichub_v1_Medical.py
+    verl_overlay/verl/utils/reward_score/rubric_reward/__init__.py
+    scripts/*
+    data/*
+    prompts/*
+    docs/*
+
+Datasets are not redistributed here. HealthBench and ResearchQA are obtained from
+their original sources by the scripts in data/, under their own licences.
